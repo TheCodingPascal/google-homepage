@@ -30,7 +30,7 @@ List of features ready and TODOs for future development
 
 To-do list:
 * Build everything
-* Try, try, try
+* Try, try, try!
 
 ## Status
 Project is: _in progress_ 
