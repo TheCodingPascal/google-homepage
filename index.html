@@ -6,41 +6,50 @@
         <meta name="description" content="Google Homepage Clone">
         <title>Google</title>
         <link rel="shorcut icon" href="https://www.google.com/s2/favicons?domain=www.google.com"/>
-        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
 <main>
-< header>
-    <ul>
-        <li>About</li>
-        <li>Store</li>
-        <li style="float:right">Gmail</li>
-        <li style="float:right">Images</li>
-        <li style="float:right">xxx</li>
-        <li style="float:right"><button type="submit">Sign in</button></li>
+
+    <ul id="nav">
+        <li style="float:left;">About</li>
+        <li style="float:left;">Store</li>
+       
+        <li style="float:right;"><button type="submit" class="button1">Sign in</button></li>
+        <li style="float:right;"><i class="material-icons">menu</i></li>
+        <li style="float:right;">Images</li>
+        <li style="float:right;">Gmail</li>
     </ul>
-</header>
+
+<div>
 <br>
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 <br>
+<p>
 <form>
+    <i class="material-icons">search</i>
     <input type="text">
-    <p>
-    <button type="submit">Google Search</button>
-    <button type="submit">I'm Feeling Lucky</button>
-    </p>
+    <i class="material-icons">mic</i>
 </form>
-</main>
+</p>
+    <p>
+    <button type="submit" class="button2">Google Search</button>
+    <button type="submit" class="button2">I'm Feeling Lucky</button>
+    </p>
+</div>
 <footer>
-    <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>About</li>
-        <li>How Search works</li>
-        <li style="float:right">Privacy</li>
-        <li style="float:right">Terms</li>
-        <li style="float:right">Settings</li>
+    <ul id="footer">
+        <li style="float:left;">Advertising</li>
+        <li style="float:left;">Business</li>
+        <li style="float:left;">About</li>
+        <li style="float:left;">How Search works</li>
+        
+        <li style="float:right;">Settings</li>
+        <li style="float:right;">Terms</li>
+        <li style="float:right;">Privacy</li>
     </ul>
 </footer>
+</main>
 </body>
 </html>
