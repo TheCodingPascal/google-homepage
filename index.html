@@ -4,52 +4,72 @@
         <meta charset="UTF-8">
         <meta name="author" content="TheCodingPascal">
         <meta name="description" content="Google Homepage Clone">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google</title>
         <link rel="shorcut icon" href="https://www.google.com/s2/favicons?domain=www.google.com"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="style.css"> 
     </head>
     <body>
-<main>
-
-    <ul id="nav">
-        <li style="float:left;">About</li>
-        <li style="float:left;">Store</li>
-       
-        <li style="float:right;"><button type="submit" class="button1">Sign in</button></li>
-        <li style="float:right;"><i class="material-icons">menu</i></li>
-        <li style="float:right;">Images</li>
-        <li style="float:right;">Gmail</li>
+        <!-- Navigation bar -->
+        <header>
+<div id="nav">
+        <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
+    <div class="right">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+        <li><img src="hamburger.png" height="17px" alt="menu"></li>
+        <li id="signin"><a href="#">Sign in</a></li>
     </ul>
-
-<div>
-<br>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-<br>
-<p>
-<form>
-    <i class="material-icons">search</i>
-    <input type="text">
-    <i class="material-icons">mic</i>
-</form>
-</p>
-    <p>
-    <button type="submit" class="button2">Google Search</button>
-    <button type="submit" class="button2">I'm Feeling Lucky</button>
-    </p>
+    </div>    
 </div>
+        </header>
+
+
+    <!-- Central box including log, search bar and buttons-->
+
+        <section>
+<div id="search">
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+            <div class="box">
+                <img src="search.png" alt="search" width="25px" height="25px">
+<form>
+    <input type="text" name="search">
+</form>
+<img src="microphone.png" alt="vocal_search" width="25px" height="25px">
+            </div>
+<div class="boxbuttons">
+    <button type="submit" class="button">Google Search</button>
+    <button type="submit" class="button">I'm Feeling Lucky</button>
+</div>
+
+<!--Icons to put here-->
+<div class="boxicons">
+    
+    
+
+</div>
+</div>
+</section>
+ 
+<!-- Links in footer-->
+
 <footer>
-    <ul id="footer">
-        <li style="float:left;">Advertising</li>
-        <li style="float:left;">Business</li>
-        <li style="float:left;">About</li>
-        <li style="float:left;">How Search works</li>
-        
-        <li style="float:right;">Settings</li>
-        <li style="float:right;">Terms</li>
-        <li style="float:right;">Privacy</li>
-    </ul>
+    <div id="footer">
+    <ul>
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">How Search works</a></li>
+<div class="right">   
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+    </ul>    
+</div>        
+</div>
 </footer>
-</main>
 </body>
 </html>
